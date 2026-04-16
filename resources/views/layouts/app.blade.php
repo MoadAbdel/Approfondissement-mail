@@ -9,7 +9,6 @@
             header { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: 1.5rem; }
             nav a { margin-right: .75rem; }
             .flash { padding: .75rem 1rem; border: 1px solid #ddd; background: #f7f7f7; margin-bottom: 1rem; }
-            .errors { padding: .75rem 1rem; border: 1px solid #e6b8b8; background: #fff3f3; margin-bottom: 1rem; }
             label { display: block; margin-top: .75rem; }
             input, textarea { width: 100%; max-width: 520px; padding: .5rem; }
             textarea { min-height: 110px; }

@@ -15,14 +15,13 @@
     <p>{{ $message }}</p>
 @enderror
 
-<label for="url">URL</label>
+<label for="url">URL (optionnel)</label>
 <input
     type="text"
     name="url"
     id="url"
     value="{{ old('url', $gift?->url) }}"
     placeholder="https://…"
-    required
 >
 @error('url')
     <p>{{ $message }}</p>
