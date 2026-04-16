@@ -11,7 +11,7 @@ class GiftController extends Controller
     {
         return $request->validate([
             'name' => ['required', 'string', 'min:3', 'max:50'],
-            'url' => ['required', 'string', 'starts_with:http://,https://'],
+            'url' => ['required', 'string', 'url:http,https'],
             'details' => ['nullable', 'string'],
             'price' => ['required', 'decimal:0,2'],
         ]);

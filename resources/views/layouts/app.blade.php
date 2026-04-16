@@ -35,17 +35,6 @@
             <div class="flash">{{ session('success') }}</div>
         @endif
 
-        @if ($errors->any())
-            <div class="errors">
-                <strong>Erreurs :</strong>
-                <ul>
-                    @foreach ($errors->all() as $error)
-                        <li>{{ $error }}</li>
-                    @endforeach
-                </ul>
-            </div>
-        @endif
-
         @yield('content')
     </body>
 </html>
